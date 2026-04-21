@@ -1,0 +1,204 @@
+.navbar {
+    background-color: gold ; 
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    object-fit: cover;
+    transition: 0.3s;
+    background-color: black;
+}
+
+.navbar-collapse {
+    justify-content: flex-end; 
+}
+
+.me-auto {
+    margin-left: 500px;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin: 0 10px;
+    font-weight: 300;
+}
+
+.nav-link:hover {
+    color: black !important; 
+}
+
+span img {
+    width: 40px;
+    height: 56px;
+    margin-right: 6px;
+    border-radius: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+
+
+button {
+    background: local;
+    color: navy;
+    border: 1px solid black;
+    padding: 10px 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+.banner {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url('../src/assets/myphoto.jpeg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 8px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.865);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+  color: white;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color:white;
+}
+.banner p {
+  color: #f8f5f5;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.banner img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+.skills-section {
+    background-color: #121212;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container {
+    background-color: #1a1a1a;
+    border-radius: 50px;
+    width: 90%;
+    max-width: 1100px;
+    padding: 60px 40px;
+    text-align: center;
+    color: white;
+}
+
+.skills-header h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.skills-header p {
+    color: #b0b0b0;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.progress-circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.progress-circle::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 50%;
+    background: conic-gradient(var(--color) calc(var(--percentage) * 1%), transparent 0);
+    mask: radial-gradient(closest-side, transparent 80%, black 81%);
+    -webkit-mask: radial-gradient(closest-side, transparent 80%, black 81%);
+}
+
+.circle-number {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.skill-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.react-multiple-carousel__arrow {
+    background: #000 !important;
+    min-width: 45px !important;
+    min-height: 45px !important;
+    border-radius: 50% !important;
+}
