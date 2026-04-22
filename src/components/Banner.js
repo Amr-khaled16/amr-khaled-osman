@@ -9,7 +9,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>
-              {"Hi! I'm Mora Osman"} <span className="wrap">Web Developer</span>
+              {"Hi! I'm Amr Osman"} <span className="wrap">Web Developer</span>
             </h1>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fugit iste nobis tempora obcaecati possimus distinctio.

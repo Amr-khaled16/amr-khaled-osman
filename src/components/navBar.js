@@ -7,7 +7,7 @@ function NavBar() {
 <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
-            <img src={'blob:https://web.whatsapp.com/0cff3822-e99f-49ec-a443-e2150a611562'}></img> 
+            <img src={'https://w7.pngwing.com/pngs/413/15/png-transparent-hyundai-motor-company-logo-hyundai-starex-hyundai-entourage-hyundai-blue-white-text.png'}></img> 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
